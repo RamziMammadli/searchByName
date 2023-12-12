@@ -110,3 +110,28 @@ function getbyname () {
     })
 }
 btn.addEventListener('click', getbyname)
+
+//////////////////////////////// findbyname with StartSwith
+
+// function findByName() {
+//     pro.style.display = "none";
+//     pro2.style.display = "block";
+//     axios
+//       .get(
+//         `https://655c83b725b76d9884fd6e9b.mockapi.io/products`
+//       )
+//       .then((res) => {
+//         db = res.data;
+//         let filteredData = db.filter(item => item.title.toLowerCase().startsWith(inp.value))
+//         filteredData.map((item) => {
+//           let myDiv = document.createElement("div");
+//           myDiv.className = "myDiv";
+//           myDiv.innerHTML = `
+//           <p>${item.title}</p>
+//           `;
+//           pro2.appendChild(myDiv);
+//         });
+//       });
+//   }
+
+// btn.addEventListener('click', findByName)
