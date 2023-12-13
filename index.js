@@ -114,8 +114,8 @@ btn.addEventListener('click', getbyname)
 //////////////////////////////// findbyname with StartSwith
 
 // function findByName() {
-//     pro.style.display = "none";
-//     pro2.style.display = "block";
+//     abc.style.display = "none";
+//     abcd.style.display = "block";
 //     axios
 //       .get(
 //         `https://655c83b725b76d9884fd6e9b.mockapi.io/products`
@@ -129,7 +129,7 @@ btn.addEventListener('click', getbyname)
 //           myDiv.innerHTML = `
 //           <p>${item.title}</p>
 //           `;
-//           pro2.appendChild(myDiv);
+//           abcd.appendChild(myDiv);
 //         });
 //       });
 //   }
